@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border: 1px solid gray;
+    box-shadow: 10px 5px 10px gray ;
+    padding: 10px;
+    background-color: #050505;
+    border:none;
+    border-radius: 6px;
+    
+}
+button{
+    width:50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border:none;
+    outline: none;
+    box-shadow: 6px 3px 10px rgb(0, 0, 0);
+    background-color:#343434 ;
+    color:white
+}
+button:active{
+    box-shadow: 5px 6px 10px rgb(91, 81, 81);
+
+}
+    
+
+
+.display{
+    margin:5px;
+    height:100px;
+    margin-top:10px;
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-weight:300;
+    font-size: 30px;
+}
+.number{
+    background-color:#343434 ;
+    color:white
+}
+.operator {
+    background-color: #FFA10B;
+    color:white;
+   
+}
+.equal{
+    background-color: #FFA10B;
+    color:white;
+}
+.min--operator{
+    background-color: #FFA10B;
+    color:white;
+    
+
+}
+.delete, .ac{
+    background-color: rgb(247, 112, 112);
+}
+
