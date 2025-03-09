@@ -31,7 +31,8 @@ button{
     outline: none;
     box-shadow: 6px 3px 10px rgb(0, 0, 0);
     background-color:#343434 ;
-    color:white
+    color:white;
+    font-weight: 600;
 }
 button:active{
     box-shadow: 5px 6px 10px rgb(91, 81, 81);
@@ -57,19 +58,26 @@ button:active{
 .operator {
     background-color: #FFA10B;
     color:white;
+    font-size: 20px;
+    font-weight: 300;
+    
    
 }
 .equal{
     background-color: #FFA10B;
     color:white;
+    font-size: 20px;
+    font-weight: 300;
 }
 .min--operator{
     background-color: #FFA10B;
     color:white;
+    font-size: 20px;
+    font-weight: 300;
     
 
 }
 .delete, .ac{
-    background-color: rgb(247, 112, 112);
+    background-color: rgb(242, 52, 52);
 }
 
